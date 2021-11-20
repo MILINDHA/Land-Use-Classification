@@ -97,10 +97,8 @@ Each multispectral image consists of 13 different color bands that represent dif
 
 
 # Predicted Output.
-![Screenshot (629)](https://user-images.githubusercontent.com/78519911/142713441-63b815d3-fb7e-4d98-8c7d-d8f086765fd7.png)
 
-![Screenshot (630)](https://user-images.githubusercontent.com/78519911/142713443-14fd4949-a6a7-4b93-bb82-dfbaf26d2f69.png)
-
+![FireShot Capture 001 - datascienceUI · Streamlit - localhost](https://user-images.githubusercontent.com/78519911/142714303-872112c7-54cc-432b-81d0-14210cbc0947.png)
 
 
 # Reference 
