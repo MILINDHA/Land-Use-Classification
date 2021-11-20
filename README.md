@@ -41,7 +41,7 @@ Land-use classification schemes typically address both land use and land cover. 
    ```
   
   # Dataset Used 📊📁
- For this project, I used open source EuroSAT Sentinel-2 satellite images from the German Research Center for Artificial Intelligence, which can be downloaded locally [link](http://madm.dfki.de/downloads). The dataset consists of 27,000 labeled images of 10 different land use classes:
+ For this project, I used open source EuroSAT Sentinel-2 satellite images from the German Research Center for Artificial Intelligence, which can be downloaded locally. The dataset consists of 27,000 labeled images of 10 different land use classes:
 
 - Annual Crop
 - Forest
@@ -55,7 +55,8 @@ Land-use classification schemes typically address both land use and land cover. 
 - Sea / Lake
 
 
-![image](https://user-images.githubusercontent.com/78519911/138552682-df140d3e-438c-49cc-9246-e82f17500278.png)
+![138552682-df140d3e-438c-49cc-9246-e82f17500278](https://user-images.githubusercontent.com/78519911/142713488-21415f50-5d03-4dea-a1fd-d467bd8b5b64.png)
+
 
 
 
@@ -66,11 +67,16 @@ Land-use classification schemes typically address both land use and land cover. 
 
 Each multispectral image consists of 13 different color bands that represent different wavelengths of light/color and different resolutions. These different light bands help distinguish parts of the landscape that reflect certain types of light in particular ways. Since most images don’t include special bands like Vegetation Red Edge, Coastal aerosol, or SWIR, for this project I chose to only use the red, green, and blue bands in an effort to make my model generalizable to most images.
 
-![Sentinel-2Poster](https://user-images.githubusercontent.com/78519911/135378729-2eec9673-714d-4584-be69-eb3f789fa13f.jpg)
+![135378729-2eec9673-714d-4584-be69-eb3f789fa13f](https://user-images.githubusercontent.com/78519911/142713550-40b15165-7f31-4842-b1bf-36d0486ecd97.jpg)
 
 
 
-![image](https://user-images.githubusercontent.com/78519911/138552671-567e570e-ed4e-4490-b18d-db7c7c17999f.png)
+
+
+
+![138552671-567e570e-ed4e-4490-b18d-db7c7c17999f](https://user-images.githubusercontent.com/78519911/142713586-abec605c-ddb6-4b80-8210-17843ffe3b6d.png)
+
+
 
 
 
@@ -87,10 +93,18 @@ Each multispectral image consists of 13 different color bands that represent dif
 
 # Architecture 👨‍💻
 
-![41598_2020_74215_Fig1_HTML](https://user-images.githubusercontent.com/78519911/135385106-8290f9c2-c058-4957-bc29-79146a0b3ccb.jpg)
+![135385106-8290f9c2-c058-4957-bc29-79146a0b3ccb](https://user-images.githubusercontent.com/78519911/142713622-a8774bb7-68f4-4ae0-9d4a-461de0710091.jpg)
 
 
 # Predicted Output.
+![Screenshot (629)](https://user-images.githubusercontent.com/78519911/142713441-63b815d3-fb7e-4d98-8c7d-d8f086765fd7.png)
+
+![Screenshot (630)](https://user-images.githubusercontent.com/78519911/142713443-14fd4949-a6a7-4b93-bb82-dfbaf26d2f69.png)
+
+
 
 # Reference 
+Dataset - http://madm.dfki.de/downloads
+
+
 
